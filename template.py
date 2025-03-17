@@ -26,6 +26,6 @@ for file_path in list_of_files:
             with open(filepath, 'w') as f:
                 logging.info(f"empty File created: {filename}")
         else:
-            logging.info({filename} + "alreay exists")
+            logging.info(f"{filename} alreay exists")
 
 
